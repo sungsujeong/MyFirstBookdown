@@ -1,9 +1,31 @@
 --- 
-title: "My First Bookdown"
+title: "IAA Study Notes"
 author: "James Jeong"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Down the rabbit-hole
+# Analytics Foundations
+## 1-1. Types of Variables
+* Response / target / dependent / input / feature / attribute
+* Predictor / factor / independent / output
+* Numeric
+  * Continuous
+  * Discrete
+* Categorical
+  * Binary
+  * Nominal
+  * Ordinal
+* Reference-level coding
+* Effects coding
+  * Useful when each level of a categorical variable has approximately equal sample sizes
+  * Compare mean of each level vs. overall mean of the data
+* One-hot encoding
+  * `onehot` package in R
+  * Faster than `model.matrix()`, and `dummyVars()` in `caret` package
+  * Optimal scaling
+    * Ordinal values need __NOT__ to be equally spaced levels
+    * Requires a careful definition of a "1-unit" change between levels
+  * Target level encoding
+
 
