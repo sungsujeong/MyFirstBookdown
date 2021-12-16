@@ -6,7 +6,7 @@ site: bookdown::bookdown_site
 ---
 
 # Analytics Foundations
-## 1-1. Types of Variables
+## Types of Variables
 * Response / target / dependent / input / feature / attribute
 * Predictor / factor / independent / output
 * Numeric

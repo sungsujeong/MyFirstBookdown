@@ -1,3 +1,4 @@
-down-the-rabbit-hole
-the-pool-of-tears
-a-caucus-race-and-a-long-tale
+analytics-foundations
+types-of-variables
+anova
+multiple-linear-regression
